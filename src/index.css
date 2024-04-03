@@ -1,13 +1,30 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* color scheme */
+
+  --ac-1: #dad7cd;
+  --ac-2: #a3b18a;
+  --ac-3: #588157;
+  --ac-4: #3a5a40;
+  --ac-5: #344e41;
+
+  /* ------------ */
+
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+
+  color: var(--ac-5);
+  background-color: var(--ac-1);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
 }
