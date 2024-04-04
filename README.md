@@ -21,12 +21,7 @@ pnpm run dev
 ### Tech Used
 
 - React.js
-- Vite
-- Pnpm
 - TailwindCSS
+- pnpm
 - VS Code
 - more incoming...
-
----
-
-<div align="center"><em>Made with <3 by Nikk using React.js, Vite and TailwindCSS</em></div>
